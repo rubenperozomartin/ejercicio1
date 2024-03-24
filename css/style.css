@@ -1,0 +1,73 @@
+body {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1, p, a {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    text-align: center;
+    line-height:.8;
+    color: white;
+}
+.contenido {
+    max-width: 1200px;
+    margin: 5rem auto 0 auto;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+a {
+    font-size: 1.4rem;
+}
+p {
+    font-size: 2.2rem;
+}
+
+.hashtag {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color:blue ;  
+    margin:auto;
+    background-color: aquamarine;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+.formulario .lado {
+    margin-top: 1rem;
+    font-family:Helvetica ;
+    font-size: 1rem;
+    color: red;
+    height: auto;
+    border: 2px solid red;
+
+}
+
+.identificar {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: rgb(12, 11, 11);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    width: 50%;
+    margin-top: 2rem;
+    
+  }
+
+.respuesta {
+    color:black;
+}
